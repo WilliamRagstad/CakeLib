@@ -5,6 +5,7 @@
  <img alt="Nuget" src="https://img.shields.io/nuget/v/CakeLang">
  <!--<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/WilliamRagstad/CakeLang">-->
  <img alt="Nuget" src="https://img.shields.io/nuget/dt/CakeLang">
+ <img alt="Last Commit" src="https://img.shields.io/github/last-commit/WilliamRagstad/CakeLang">
 </div>
 
 # CakeLang
