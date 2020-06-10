@@ -16,9 +16,9 @@ You can build *generative and dynamic data packs* using *C#* which has built in 
 </div>
 
 > ### Install
-> Install the framework from the link below.
+> Add the NuGet package to install the framework from the link below.
 >
-> <a href="https://www.nuget.org/packages/CakeLang"><img src="https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/media/nuget/nuget-logo.png" height="40px"></a>
+> <a href="https://www.nuget.org/packages/CakeLang"><img src="https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/media/nuget/nuget-logo.png" target="_blank" height="40px"></a>
 
 # Usage
 
