@@ -8,7 +8,7 @@
 </div>
 
 # CakeLang
-A Minecraft data pack development framework.
+CakeLang is a Minecraft data pack development framework with a built in scripting language transpiler ([compile-time](https://en.wikipedia.org/wiki/Compile_time)).
 
 # Usage
 
