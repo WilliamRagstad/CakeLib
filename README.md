@@ -14,6 +14,7 @@ You can build *generative and dynamic data packs* using *C#* which has built in 
 <div align=center>
  <p>Start enjoying data pack development now 🎂🎉</p>
 </div>
+
 # Usage
 
 ## Examples
