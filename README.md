@@ -3,7 +3,7 @@
  <img alt="CakeLang" src="assets/logo-shadow.png" width="30%">
  <br>
  <img alt="Nuget" src="https://img.shields.io/nuget/v/CakeLang">
- <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/WilliamRagstad/CakeLang">
+ <!--<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/WilliamRagstad/CakeLang">-->
  <img alt="Nuget" src="https://img.shields.io/nuget/dt/CakeLang">
 </div>
 
