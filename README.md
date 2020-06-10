@@ -13,9 +13,11 @@ CakeLang is an *open source* Minecraft data pack *development framework* with a 
 You can build *generative and dynamic data packs* using *C#* which has built in plugin support through *nuget*!
 <div align=center>
  <p>Start enjoying data pack development now 🎂🎉</p>
- <p>Install from:</p>
- <a href="https://www.nuget.org/packages/CakeLang"><img src="https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/media/nuget/nuget-logo.png" height="40px"></a>
 </div>
+
+> ### Install
+> Install the framework from the link below.
+> <a href="https://www.nuget.org/packages/CakeLang"><img src="https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/media/nuget/nuget-logo.png" height="40px"></a>
 
 # Usage
 
