@@ -1,6 +1,6 @@
 
 <div align=center>
- <img alt="ArgumentsUtil" src="assets/logo.png" width="30%">
+ <img alt="ArgumentsUtil" src="assets/logo-shadow.png" width="30%">
  <br>
  <img alt="Nuget" src="https://img.shields.io/nuget/v/CakeLang">
  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/WilliamRagstad/CakeLang">
@@ -8,7 +8,7 @@
 </div>
 
 # CakeLang
-A .NET Standard library built for simple and accessible command line argument parsing, manual instructions and validation.
+A Minecraft data pack development framework.
 
 # Usage
 
