@@ -14,12 +14,11 @@ A Minecraft data pack development framework.
 
 ## Examples
 
-### 1. Static Manual
+### 1. Basic Setup
 
 Source code:
 
 ```c#
-using System;
 using CakeLang;
 
 namespace CakeLangDemo
