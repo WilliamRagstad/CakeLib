@@ -8,10 +8,10 @@
 </div>
 
 # CakeLang
-CakeLang is an *open source* Minecraft data pack *development framework* with a built in CakeLang *scripting language* transpiler!🎉
+CakeLang is an *open source* Minecraft data pack *development framework* with a built in CakeLang *scripting language* transpiler!
 You can build *generative and dynamic data packs* using *C#* which has built in plugin support through *nuget*!
 <div align=center>
- <p>Start enjoying data pack development now 🎂</p>
+ <p>Start enjoying data pack development now 🎂🎉</p>
 </div>
 # Usage
 
