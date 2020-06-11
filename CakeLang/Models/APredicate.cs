@@ -1,8 +1,8 @@
 ﻿namespace CakeLang
 {
-    public class LootTable : IMCModel
+    public abstract class APredicate : IMCModel
     {
-        public File[] ToFiles()
+        File[] IMCModel.ToFiles()
         {
             throw new System.NotImplementedException();
         }

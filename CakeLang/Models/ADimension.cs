@@ -2,9 +2,9 @@
 
 namespace CakeLang
 {
-    public class Dimension
+    public abstract class ADimension
     {
-        public Dimension(string _namespace)
+        public ADimension(string _namespace)
         {
             Namespace = _namespace;
             throw new NotImplementedException();
@@ -12,12 +12,12 @@ namespace CakeLang
 
         public string Namespace { get; }
 
-        public Directory ToDimensionType()
+        internal Directory ToDimensionType()
         {
             // Return the namespace root directory for (dimension type).json
             throw new NotImplementedException();
         }
-        public Directory ToDimension()
+        internal Directory ToDimension()
         {
             // Return the namespace root directory for (dimension).json
             throw new NotImplementedException();

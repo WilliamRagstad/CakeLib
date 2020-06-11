@@ -17,30 +17,30 @@ namespace CakeLang
             Description = _description;
             Namespace = _namespace;
 
-            Advancements = new List<Advancement>();
-            Functions = new List<Function>();
-            LootTables = new List<LootTable>();
-            Predicates = new List<Predicate>();
-            Recipes = new List<Recipe>();
-            Structures = new List<Structure>();
+            Advancements = new List<AAdvancement>();
+            Functions = new List<AFunction>();
+            LootTables = new List<ALootTable>();
+            Predicates = new List<APredicate>();
+            Recipes = new List<ARecipe>();
+            Structures = new List<AStructure>();
 
             Tags = new Tags();
-            Dimensions = new List<Dimension>();
+            Dimensions = new List<ADimension>();
         }
 
         public string Name { get; }
         public string Description { get; }
         public string Namespace { get; }
 
-        public List<Advancement> Advancements;
-        public List<Function> Functions;
-        public List<LootTable> LootTables;
-        public List<Predicate> Predicates;
-        public List<Recipe> Recipes;
-        public List<Structure> Structures;
+        public List<AAdvancement> Advancements;
+        public List<AFunction> Functions;
+        public List<ALootTable> LootTables;
+        public List<APredicate> Predicates;
+        public List<ARecipe> Recipes;
+        public List<AStructure> Structures;
 
         public Tags Tags;
-        public List<Dimension> Dimensions;
+        public List<ADimension> Dimensions;
 
         public void CompileAndInject(string mcWorldName)
         {
@@ -79,7 +79,7 @@ namespace CakeLang
 @"{
     ""pack"": {
     ""pack_format"": " + pack_format + @",
-    ""description"": ""Tutorial Data Pack""
+    ""description"": " + Description + @"
     }
 }"
                     )

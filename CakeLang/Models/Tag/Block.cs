@@ -2,7 +2,7 @@
 {
     public class Block : IMCModel
     {
-        public File[] ToFiles()
+        File[] IMCModel.ToFiles()
         {
             throw new System.NotImplementedException();
         }

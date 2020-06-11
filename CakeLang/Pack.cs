@@ -7,7 +7,7 @@ namespace CakeLang
     {
         private readonly Directory root;
 
-        public Pack(Directory root)
+        internal Pack(Directory root)
         {
             this.root = root;
         }

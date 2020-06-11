@@ -3,11 +3,30 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon>compiler icon.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Dotch</Authors>
+    <Description>CakeLang is an open source Minecraft data pack development framework with a built in CakeLang scripting language transpiler! You can build generative and dynamic data packs using C# which has built in plugin support through nuget!</Description>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/WilliamRagstad/CakeLang</PackageProjectUrl>
+    <PackageIcon>logo-shadow.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/WilliamRagstad/CakeLang</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Minecraft, Data Pack, Development, Framework</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Company>Dotch</Company>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="EzConsole" Version="1.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\assets\logo-shadow.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

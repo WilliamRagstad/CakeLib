@@ -2,7 +2,7 @@
 {
     public class Entity : IMCModel
     {
-        public File[] ToFiles()
+        File[] IMCModel.ToFiles()
         {
             throw new System.NotImplementedException();
         }

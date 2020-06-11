@@ -1,8 +1,8 @@
 ﻿namespace CakeLang
 {
-    public class Structure : IMCModel
+    public abstract class AAdvancement : IMCModel
     {
-        public File[] ToFiles()
+        File[] IMCModel.ToFiles()
         {
             throw new System.NotImplementedException();
         }

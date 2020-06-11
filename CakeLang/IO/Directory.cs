@@ -4,13 +4,15 @@ using Console = EzConsole.EzConsole;
 
 namespace CakeLang
 {
-    public class Directory
+    internal class Directory
     {
         public Directory(string name, Directory[] directories = null, File[] files = null)
         {
             Name = name;
-            Directories = new List<Directory>(directories);
-            Files = new List<File>(files);
+            if (directories != null) Directories = new List<Directory>(directories);
+            else Directories = new List<Directory>();
+            if (files != null) Files = new List<File>(files);
+            else Files = new List<File>();
         }
 
         public Directory(string name, Directory directory = null, File file = null) : this(name, new[] { directory }, new[] { file }) { }

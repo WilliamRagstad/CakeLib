@@ -1,8 +1,8 @@
 ﻿namespace CakeLang
 {
-    public class Recipe : IMCModel
+    public abstract class ALootTable : IMCModel
     {
-        public File[] ToFiles()
+        File[] IMCModel.ToFiles()
         {
             throw new System.NotImplementedException();
         }

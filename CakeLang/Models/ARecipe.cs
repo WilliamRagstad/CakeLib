@@ -1,8 +1,8 @@
 ﻿namespace CakeLang
 {
-    public class Predicate : IMCModel
+    public abstract class ARecipe : IMCModel
     {
-        public File[] ToFiles()
+        File[] IMCModel.ToFiles()
         {
             throw new System.NotImplementedException();
         }

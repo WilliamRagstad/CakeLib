@@ -3,7 +3,7 @@ using Console = EzConsole.EzConsole;
 
 namespace CakeLang
 {
-    public class File
+    internal class File
     {
         public File(string name, byte[] content)
         {
@@ -12,6 +12,7 @@ namespace CakeLang
         }
 
         public File(string name, string content) : this(name, System.Text.Encoding.UTF8.GetBytes(content)) { }
+        public File(string name, string[] content) : this(name, System.Text.Encoding.UTF8.GetBytes(string.Join('\n', content))) { }
 
         public string Name { get; }
         public byte[] Content { get; }

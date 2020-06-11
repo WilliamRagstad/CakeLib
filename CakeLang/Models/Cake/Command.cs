@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CakeLang
+namespace CakeLang.Cake
 {
-    public interface IMCModel
+    class Command
     {
-        internal File[] ToFiles();
     }
 }
