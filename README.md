@@ -63,7 +63,7 @@ Some creamy examples of things that are exceptionally good with CakeLang are: Dy
 
 ### 1. Basic Setup
 
-In this example 
+In this example, we have a console program with the CakeLang package installed. The code below creates a new data pack with name, description and associated namespace, and only compiles it into a pack which is directly injected into a Minecraft world.
 
 Source code:
 
