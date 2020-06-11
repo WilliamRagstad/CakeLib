@@ -14,6 +14,7 @@ CakeLang is an open source cross-platform Minecraft data pack development framew
 <div align=center>
  <p>Start enjoying data pack development now 🎂🎉</p>
 </div>
+
 > ### Install
 > Add CakeLang to your C# project by installing the NuGet package from the link below.
 >
