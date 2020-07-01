@@ -7,8 +7,8 @@ namespace CakeLang
 {
     internal static class ErrorManager
     {
-        public static void GeneralError(string message, string type = "ERROR") => Console.WriteLine("[" + type + "] " + message, ConsoleColor.Red);
-        public static void IOError(string message) => GeneralError(message, "IO ERROR");
-        public static void InjectError(string message) => GeneralError(message, "INJECTION ERROR");
+        internal class GeneralError : Exception { public GeneralError(string message, string type = "ERROR") : base('[' + type + "] " + message) { } }
+        internal class IOError : GeneralError { public IOError(string message) : base(message, "IO ERROR") { } }
+        internal class InjectError : GeneralError { public InjectError(string message) : base(message, "INJECTION ERROR") { } }
     }
 }

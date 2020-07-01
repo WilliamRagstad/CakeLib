@@ -25,8 +25,7 @@ namespace CakeLang
                     "datapacks");
             if (!System.IO.Directory.Exists(path))
             {
-                ErrorManager.InjectError("Minecraft world '" + mcWorldName + "' could not be found! Please make sure that the world is generated before attempting to inject any data packs...");
-                return;
+                throw new ErrorManager.InjectError("Minecraft world '" + mcWorldName + "' could not be found! Please make sure that the world is generated before attempting to inject any data packs...");
             }
             root.Create(path);
         }
