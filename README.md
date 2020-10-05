@@ -9,14 +9,14 @@
 </div>
 
 # CakeLang
-CakeLang is an open source cross-platform Minecraft data pack development framework in C# *.NET Core* with a built in support for custom data pack development languages and tools, which includes a CakeLang scripting language transpiler!
+CakeLang is an open source cross-platform Minecraft data pack development framework. It supports various development languages, tools and plugins and comes packaged with its own CakeLang scripting language!
 
 <div align=center>
- <p>Start enjoying data pack development now 🎂🎉</p>
+ <p>Start enjoying data pack development now! 🎂🎉</p>
 </div>
 
 > ### Install
-> Add CakeLang to your C# project by installing the NuGet package from the link below.
+> Add CakeLang to your C# .NET Core project by installing the NuGet package from the link below.
 >
 > <a href="https://www.nuget.org/packages/CakeLang"><img src="https://docs.microsoft.com/en-us/dotnet/standard/library-guidance/media/nuget/nuget-logo.png" target="_blank" height="40px"></a>
 
