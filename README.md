@@ -8,7 +8,7 @@
  <img alt="Last Commit" src="https://img.shields.io/github/last-commit/WilliamRagstad/CakeLang">
 </div>
 
-# CakeLang
+# CakeLib
 CakeLang is an open source cross-platform Minecraft data pack development framework. It supports various development languages, tools and plugins and comes packaged with its own CakeLang scripting language!
 
 <div align=center>
